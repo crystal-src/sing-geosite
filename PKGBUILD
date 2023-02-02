@@ -1,7 +1,7 @@
 # Maintainer: everyx <lunt.luo#gmail.com>
 
 pkgname=sing-geosite
-pkgver=20230110105238
+pkgver=20230201094130
 pkgrel=1
 
 pkgdesc='sing-geosite database'
@@ -14,7 +14,7 @@ optdepends=('sing-box: The universal proxy platform')
 
 source=("${pkgver}.geosite.db::${url}/releases/download/${pkgver}/geosite.db"
         "${pkgver}.LICENSE::https://raw.githubusercontent.com/${_repo}/${pkgver}/LICENSE")
-sha256sums=('82b18e0bd581ec8852c31c88b4f15e6315d481949f4d7f5171d48c0d197e6207'
+sha256sums=('a4003a0de29283e05752083042452f860e6de081fe9905357df68f467852365a'
             '2f02b7486bcfa90d115c71a20437f3906b6fd5bef81c5dc0efd341399e89d0fd')
 
 package() {
